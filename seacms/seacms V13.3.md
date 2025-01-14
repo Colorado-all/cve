@@ -10,7 +10,7 @@ Seacms V13.3 has an SQL injection vulnerability that allows an authenticated att
 
 Download address：https://www.seacms.com/download/
 
-![image-20250114112516349](images\image-20250114112516349.png)
+![image-20250114112516349](images/image-20250114112516349.png)
 
 
 
@@ -18,7 +18,7 @@ The vulnerability is located in the admin_members.php file, starting from line 9
 
 
 
-![image-20250114113159919](images\image-20250114113159919.png)
+![image-20250114113159919](images/image-20250114113159919.png)
 
 
 
@@ -45,5 +45,5 @@ uname=1&uid=1&Submit=%E6%90%9C+%E7%B4%A2
 
 
 
-![image-20250114110817890](images\image-20250114110817890.png)
+![image-20250114110817890](images/image-20250114110817890.png)
 
