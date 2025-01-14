@@ -6,7 +6,7 @@
 
 
 
-Seacms V13.3 has an SQL injection vulnerability that allows an authenticated attacker to exploit the database.
+Seacms V13.3 has an SQL injection vulnerability that allows an authenticated attacker to exploit the database to steal information or compromise the database
 
 Download address：https://www.seacms.com/download/
 
