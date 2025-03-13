@@ -12,7 +12,7 @@ Source code address：https://www.sourcecodester.com/php/16513/ac-repair-and-ser
 
 The vulnerability is located in the /classes/Master.php file, navigate to save_book and look down to first extract($_POST) the parameters in the HTTP POST request into independent variables. Then directly see line 175 down if '$id' is empty, perform **INSERT** operation to insert a new record, if '$id' exists, perform **UPDATE** operation to update the record corresponding to the ID, the existence and SQL statement directly concatenate.
 
-![image-20250313223937409](images\image-20250313223937409.png)
+![image-20250313223937409](images/image-20250313223937409.png)
 
 漏洞验证：
 
@@ -62,7 +62,7 @@ Content-Disposition: form-data; name="services[]"
 
 ```
 
-![image-20250313223742223](images\image-20250313223742223.png)
+![image-20250313223742223](images/image-20250313223742223.png)
 
 
 
