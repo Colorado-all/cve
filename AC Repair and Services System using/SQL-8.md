@@ -12,7 +12,7 @@ Source code address：https://www.sourcecodester.com/php/16513/ac-repair-and-ser
 
 The vulnerability is located in sava_users of the /classes/Users.php file. The parameters in the HTTP POST request are converted to independent variables by 'extract($_POST)'. In the judgment of line 26, when '$id' is empty, execute 'INSERT' statement to insert the field value in '$data' into the 'users' table. After successful insertion, obtain the self-increment ID of the new user through' $this->conn->insert_id '. And assign the value to '$id'. When you see the judgment in line 58, when the file upload function is used, the avatar and user id will be updated, and you can see that the id is directly spliced with SQL statements, that is, there are related problems.
 
-![image-20250313230543305](images\image-20250313230543305.png)
+![image-20250313230543305](images/image-20250313230543305.png)
 
 
 
@@ -67,7 +67,7 @@ Content-Type: application/octet-stream
 
 ```
 
-![image-20250313231847818](images\image-20250313231847818.png)
+![image-20250313231847818](images/image-20250313231847818.png)
 
 
 
