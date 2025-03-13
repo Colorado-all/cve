@@ -10,7 +10,7 @@ Source code address：https://www.sourcecodester.com/php/16513/ac-repair-and-ser
 
 The vulnerability is located in the /admin/bookings/view_booking.php file. From the following code, you can see that the GET request id parameter is directly brought into the SQL statement for concatenation query.
 
-![image-20250313225558865](images\image-20250313225558865.png)
+![image-20250313225558865](images/image-20250313225558865.png)
 
 
 
@@ -29,7 +29,7 @@ Accept-Language: zh-CN,zh;q=0.9
 Connection: keep-alive
 ```
 
-![image-20250313225614391](images\image-20250313225614391.png)
+![image-20250313225614391](images/image-20250313225614391.png)
 
 
 
