@@ -10,7 +10,7 @@ Source code address：https://www.sourcecodester.com/php/16513/ac-repair-and-ser
 
 The vulnerability is located in the /admin/services/manage_service.php file, and from the following code, you can see that the GET request id parameter is directly brought into the post-SQL statement for concatenation query.
 
-![image-20250313225345398](images\image-20250313225345398.png)
+![image-20250313225345398](images/image-20250313225345398.png)
 
 
 
@@ -28,7 +28,7 @@ Connection: keep-alive
 
 ```
 
-![image-20250313225408095](images\image-20250313225408095.png)
+![image-20250313225408095](images/image-20250313225408095.png)
 
 
 
