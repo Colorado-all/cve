@@ -14,7 +14,7 @@ Source code address：https://www.sourcecodester.com/php/17897/simple-do-list-sy
 
 The vulnerability is located in the complete_task.php file. It can be seen from the code that after receiving the id parameter, it will be brought into the SQL statement for concatenation without any restrictions, causing security problems.
 
-![image-20250418152049657](/images/image-20250418152049657.png)
+![image-20250418152049657](images/image-20250418152049657.png)
 
 
 
@@ -31,7 +31,7 @@ Accept-Language: zh-CN,zh;q=0.9
 Connection: close
 ```
 
- ![image-20250418151828451](/images/image-20250418151828451.png)
+ ![image-20250418151828451](images/image-20250418151828451.png)
 
 
 
